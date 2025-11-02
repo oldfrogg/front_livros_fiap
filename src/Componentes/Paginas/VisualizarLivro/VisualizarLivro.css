@@ -1,0 +1,25 @@
+.div-dados-livro {
+    display: grid;
+    grid-template-columns: 240px 240px;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.capa-livro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 15px auto 30px;
+    max-height: 40vh;
+    box-shadow: 7px 7px 5px grey
+}
+
+.item-do-grid {
+    margin: 15px 0;
+}
